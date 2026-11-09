@@ -1,0 +1,27 @@
+# Local operating-system and editor files
+.DS_Store
+.vscode/settings.json
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Raw source data and locally generated datasets
+data/raw/
+data/processed/
+
+# Generated analysis outputs (keep the written assessment)
+reports/*.csv
+reports/**/*.csv
+reports/figures/
+
+# Local environment diagnostic script
+test_env.py
